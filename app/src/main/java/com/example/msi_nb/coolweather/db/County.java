@@ -1,10 +1,12 @@
 package com.example.msi_nb.coolweather.db;
 
+import org.litepal.crud.DataSupport;
+
 /**
  * Created by MSI-NB on 2017/9/22.
  */
 
-public class County {
+public class County extends DataSupport{
     private int id;
     private String countyName;
     private int cityId;
